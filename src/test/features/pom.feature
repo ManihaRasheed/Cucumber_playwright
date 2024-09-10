@@ -16,6 +16,6 @@ And verifies login is successful
 
 Examples:
     | firstname | lastname | email                     | telephone  | password  |
-    | Umair     | Khan     | umair12345678910@gmail.com    | 1234567891 | umair123  |
-    | Azeem     | Ali      | azeem12345678910@gmail.com     | 1234567892 | azeem123  |
+    | Umair     | Khan     | umair1234567891011@gmail.com    | 1234567891 | umair123  |
+    | Azeem     | Ali      | azeem1234567891011@gmail.com     | 1234567892 | azeem123  |
 

@@ -25,7 +25,7 @@
       "requireModule": [
         "ts-node/register"
       ],
-      "parallel": 5
+      "parallel": 6
     }
   }
   

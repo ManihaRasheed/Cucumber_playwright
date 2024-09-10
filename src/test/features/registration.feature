@@ -11,7 +11,7 @@ And verifies registration is successful3
     
 Examples:
     | firstname | lastname | email                     | telephone  | password  |
-    | Umair     | Khan     | alia1234567@gmail.com    | 1234567891 | umair123  |
-    | Azeem     | Ali      | tania1234567@gmail.com     | 1234567892 | azeem123  |
+    | Umair     | Khan     | alia12345678@gmail.com    | 1234567891 | umair123  |
+    | Azeem     | Ali      | tania12345678@gmail.com     | 1234567892 | azeem123  |
 
 

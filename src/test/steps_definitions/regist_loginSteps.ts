@@ -31,7 +31,7 @@ Given('I am on the registration page', async function () {
 When('I provide valid registration details', async function () {
             await page.fill('input[name="firstname"]', 'hani'); 
             await page.fill('input[name="lastname"]', 'Ali'); 
-            await page.fill('input[name="email"]', 'haniaali12@gmail.com'); 
+            await page.fill('input[name="email"]', 'haniaali123@gmail.com'); 
             await page.fill('input[name="telephone"]', '1234567890'); 
             await page.fill('input[name="password"]', 'ali20ahmad'); 
             await page.fill('input[name="confirm"]', 'ali20ahmad'); 
@@ -59,7 +59,7 @@ Given('I am on the login page', async function () {
           });
           
 When('I enter valid username and password', async function () {
-            await page.fill('input[name="email"]', 'haniaali12@gmail.com'); 
+            await page.fill('input[name="email"]', 'haniaali123@gmail.com'); 
             await page.fill('input[name="password"]', 'ali20ahmad'); 
           });
           
