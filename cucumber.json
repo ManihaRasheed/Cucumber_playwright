@@ -25,7 +25,11 @@
       "requireModule": [
         "ts-node/register"
       ],
-      "parallel": 6
+      "parallel": 6,
+      "format":[
+        "html:cucumber-report.html"
+      ]
+
     }
   }
   
