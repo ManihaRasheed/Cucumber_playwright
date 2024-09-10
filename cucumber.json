@@ -1,0 +1,31 @@
+{
+    "default": {
+      "formatOptions": {
+        "snippetInterface": "async-await"
+      },
+      "paths": [
+        "src/test/features/login.feature",
+        "src/test/features/pom.feature",
+        "src/test/features/regist_login.feature",
+        "src/test/features/registration.feature",
+        "src/test/features/scenario_outline.feature",
+        "src/test/features/hooks.feature"
+      ],
+      "dryRun": false,
+      "require": [
+        "src/test/steps_definitions/loginSteps.ts",
+        "src/test/steps_definitions/POM.ts",
+        "src/test/steps_definitions/regist_loginSteps.ts",
+        "src/test/steps_definitions/registrationSteps.ts",
+        "src/test/steps_definitions/scenariooutline.ts",
+        "src/test/support/hooks.ts",
+        "src/test/steps_definitions/hooks_step.ts"
+
+      ],
+      "requireModule": [
+        "ts-node/register"
+      ],
+      "parallel": 5
+    }
+  }
+  
